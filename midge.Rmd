@@ -1,5 +1,5 @@
 ---
-title: "Semiconjugate prior for normal data "
+title: "Conjugate prior for normal data "
 author:
 - "classroom"
 date: "`r format(Sys.time(), '%d %B %Y')`"
@@ -15,7 +15,7 @@ Here is the midge data:
   y <- c(1.64, 1.70, 1.72, 1.74, 1.82, 1.82, 1.82, 1.90, 2.08)
 ```
 
-1. Using a semiconjugate prior for the variance, use the Monte Carlo method to approximate the joint distribution for the mean and variance.
+1. Using a conjugate prior for the variance, use the Monte Carlo method to approximate the joint distribution for the mean and variance.
 
 
 2. Plot $p(\theta | y_1, \ldots, \y_n$. Show a 95% quantile-based interval for the posterior mean
