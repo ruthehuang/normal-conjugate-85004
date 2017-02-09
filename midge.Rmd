@@ -1,0 +1,21 @@
+---
+title: "Semiconjugate prior for normal data "
+author:
+- "classroom"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: pdf_document
+geometry: margin=1in
+---
+
+We will work on this together in class today.
+
+Here is the midge data:
+
+```{r midegeData}
+  y <- c(1.64, 1.70, 1.72, 1.74, 1.82, 1.82, 1.82, 1.90, 2.08)
+```
+
+Using a semiconjugate prior for the variance, use the Monte Carlo method to
+approximate the joint distribution for the mean and variance. Compare a 95%
+quantile-based interval for the posterior mean to a 95% frequentist confidence
+interval.
